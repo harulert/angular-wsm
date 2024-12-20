@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #4B5945;
+    font-weight: 600;
+}
+p {
+    color: #66785F;
+}
+
+
+nav h6 {
+    font-size: .7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav i {
+    font-size: 1rem;
+    cursor: pointer;
+}
+nav .offcanvas .offcanvas-body a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: #66785F;
+    font-weight: 600;
+    padding: 10px 46px 10px;
+    transition: 1s ease;
+}
+
+nav .offcanvas .offcanvas-body a:hover {
+    background: #4B5945;
+    color: #FFFFFF;
+    transition: 1s ease;
+}
+
+@media only screen and (min-width: 374px) and (max-width: 424px)
+{
+    nav h6 {
+        font-size: .8rem;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px)
+{
+    nav h6 {
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    nav h6 {
+        font-size: 1rem;
+    }
+}

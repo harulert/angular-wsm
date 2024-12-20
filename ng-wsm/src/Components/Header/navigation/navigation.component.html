@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-xxl fixed-top">
+    <div class="container-fluid">
+        <h6 class="p-1 pt-1">{{brandName()}}</h6>
+
+        <i class="bx bx-menu ms-auto pb-2" data-bs-toggle="offcanvas" data-bs-target="#wsmNavbar" aria-controls="offcanvasExample"></i>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="wsmNavbar" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h6 class="offcanvas-title p-1" id="offcanvasExampleLabel">{{fullName()}}</h6>
+                <i class="bx bx-chevron-right ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            <div class="offcanvas-body">
+                <div class="row gx-1 text-center">
+                    <div class="col-12 mt-5">
+                        <a class="rounded" href="#">{{navFirstLink()}}</a>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <a class="rounded" href="#">{{navSecondLink()}}</a>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <a class="rounded" href="#">{{navThirdLink()}}</a>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <a class="rounded" href="#">{{navFourthLink()}}</a>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <a class="rounded" href="#">{{navFifthLink()}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
